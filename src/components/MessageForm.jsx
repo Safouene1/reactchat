@@ -20,7 +20,7 @@ const MessageForm = (props) => {
     if (text.length > 0) {
       sendMessage(creds, chatId, { text });
     }
-
+   
     setValue('');
   };
 
